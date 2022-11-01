@@ -1,0 +1,116 @@
+.header-grid {
+    display: grid;
+    grid-template-columns: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hamburger img {
+    width: 30px;
+    height: 30px;
+    margin-top: 1%;
+    margin-left: 3%;
+    cursor: pointer;
+
+}
+
+.hamburger {
+    display: none;
+}
+
+.responseMenu {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    margin-top: -25px;
+    overflow-y: hidden;
+}
+
+ul li {
+    color: #FFFFFF;
+    display: inline;
+
+}
+
+.reponsive-navlinks a {
+    color: rgb(255, 255, 255);
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+
+}
+
+.close-icon {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.isResponsiveNav {
+    display: none;
+}
+
+
+nav {
+    margin-left: 100px;
+    margin-top: 16px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+li {
+    padding: 15px 40px 15px 0;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: .02em;
+    cursor: pointer;
+}
+
+.active {
+    color: #f0860c;
+}
+
+.contact {
+    display: grid;
+    float: right;
+    cursor: pointer;
+    margin-top: 0;
+    color: #FFFFFF;
+    margin-right: 177px;
+    margin-top: -17px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+@media screen and (max-width:767px) {
+    .header-grid {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+
+}
+
+@media screen and (min-width:1024px) {
+    .responseMenu {
+        display: none;
+    }
+}

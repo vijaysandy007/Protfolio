@@ -1,0 +1,120 @@
+.wraper {
+    width: 50%;
+    margin-left: 6.5%;
+    margin-top: 7%;
+}
+
+.form-label {
+    font-weight: 400;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form {
+    margin-top: 30px;
+    color: #fff;
+}
+input{
+    border: none!important;
+}
+
+.textArea {
+    min-height: 128px;
+    min-width: 650px;
+    border-style: none;
+    border-width: 1px;
+    border-color: black !important;
+    background-color: rgba(27, 27, 27, .91) !important;
+    border-radius: 10px;
+    color: #fff;
+    // width: 999px;
+    height: 106px;
+
+}
+
+input::placeholder {
+    color: #dddddd !important;
+}
+
+.submit {
+    min-height: 48px;
+    min-width: 118px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 12px;
+    background-color: rgba(27, 27, 27, .91);
+    text-align: center;
+    border: none;
+    display: block;
+    color: #f0860c;
+
+    font-size: 18px;
+    font-weight: 500;
+}
+
+textarea::placeholder {
+    color: #dddddd !important;
+    font-size: 16px !important;
+    padding: 5px;
+}
+
+.formInput {
+    max-width: 650px;
+    border-color: black !important;
+    border-style: none;
+    border-width: 1px;
+    border-top-color: rgb(204, 204, 204) !important;
+    border-right-color: rgb(204, 204, 204) !important;
+    border-bottom-color: rgb(204, 204, 204) !important;
+    border-left-color: rgb(204, 204, 204) !important;
+
+    border-radius: 10px;
+    color: #fff;
+    background-color: rgba(27, 27, 27, .91) !important;
+    ;
+
+    display: block;
+    width: 100%;
+    height: 38px;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    vertical-align: middle;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(204, 204, 204) !important;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(204, 204, 204) !important;
+    border-left-style: solid;
+    border-left-width: 1px;
+}
+
+.content p {
+    margin-top: 25px;
+    color: #ccc;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 300;
+}
+
+@media screen and (max-width:767px){
+    .textArea{
+        // width: 220px;
+    min-width: 220px;
+
+    }
+}
+
+@media screen and (min-width:600px) {
+    .textArea{
+    min-width: 380px;
+
+    }
+}

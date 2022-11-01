@@ -1,0 +1,40 @@
+.homeContent {
+    width: 50%;
+    margin-left: 6.5%;
+    margin-top: 13%;
+    // opacity: 0;
+}
+
+.title p {
+    line-height: 1.14286;
+    letter-spacing: .01em;
+    font-size: 28px;
+}
+
+.title h1 {
+    padding-top: 20px;
+    margin-bottom: 10px;
+    font-size: 64px;
+    line-height: 1.0625;
+    font-weight: 600;
+    letter-spacing: -.01em;
+    text-transform: none;
+
+}
+
+.content {
+    margin-bottom: 20px;
+}
+
+.content p {
+    color: #ccc;
+    letter-spacing: .01em;
+    line-height: 2.38105;
+    font-weight: 400;
+    font-size: 21px;
+}
+
+.content a {
+    color: #f0860c;
+    text-decoration: none;
+}
