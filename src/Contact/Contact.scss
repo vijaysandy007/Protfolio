@@ -104,6 +104,13 @@ textarea::placeholder {
     font-weight: 300;
 }
 
+input{
+    outline: none;
+}
+textarea{
+    outline: none;
+}
+
 @media screen and (max-width:767px){
     .textArea{
         // width: 220px;
@@ -118,3 +125,19 @@ textarea::placeholder {
 
     }
 }
+
+
+
+
+
+@media screen and (max-width:767px){ // Mobile Phone
+   
+    .wraper{
+        width: 80%;
+    }
+  
+   }
+   
+   @media screen and (min-width:767px) and (max-width:1023px){// tablets
+   
+   }

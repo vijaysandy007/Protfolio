@@ -1,7 +1,7 @@
-import React, { useEffect, useRef, useState } from "react"
+import React, { useEffect, useState } from "react"
 import './Header.scss'
 import { NavLink } from 'react-router-dom';
-import {gsap} from 'gsap'
+// import {gsap} from 'gsap'
 
 const Header = () => {
 

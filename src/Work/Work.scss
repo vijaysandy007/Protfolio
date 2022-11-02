@@ -150,3 +150,26 @@
     color: #fff !important;
     font-weight: 400 !important;
 }
+
+@media screen and (max-width:767px){ // Mobile Phone
+ .nestedSection{
+    display: flex;
+    flex-direction: column;
+ }
+ .nestedSection2{
+    width: 100%;
+ }
+ .imageClass{
+    width: 100%;
+    text-align: center;
+    margin-left: 48%;
+ }
+}
+
+@media screen and (min-width:767px) and (max-width:1023px){// tablets
+
+}
+
+@media screen and (min-width:1024px){// Desktop
+
+}

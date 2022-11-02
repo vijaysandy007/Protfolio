@@ -18,6 +18,8 @@
 
 .hamburger {
     display: none;
+    position: fixed;
+    top: 5px;
 }
 
 .responseMenu {
@@ -28,6 +30,7 @@
     z-index: 1;
     margin-top: -25px;
     overflow-y: hidden;
+    
 }
 
 ul li {

@@ -26,8 +26,9 @@ function App() {
      <div className='routes'>
      <Routes>
       
-         <Route path="/" element={<LayoutComponent/>}>
+         <Route  element={<LayoutComponent/>}>
          <Route path="/home"  element={<Home/>} />
+         <Route path="/"  element={<Home/>} />
          <Route path="about" element={<About/>} />
          <Route path="work" element={<Work/>}/>
          <Route path="writing" element={<Wiriting/>}/>

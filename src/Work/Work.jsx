@@ -26,7 +26,7 @@ const Work = () => {
               <div className="nestedSection">
                 <div className="nestedSection1">
                   <div className="imageClass">
-                     <img src={require('../Assets/img/AngularPng.png')} alt="image" width="80"/>
+                     <img src={require('../Assets/img/AngularPng.png')} alt="images" width="80"/>
                      <div className="content">
                      <p className="titleContent">Angular</p>
                       <p>Design and Development</p>
@@ -51,7 +51,7 @@ const Work = () => {
             <div className="nestedSection">
                 <div className="nestedSection1">
                   <div className="imageClass">
-                     <img src={require('../Assets/img/python.png')} alt="image" width="80"/>
+                     <img src={require('../Assets/img/python.png')} alt="image1" width="80"/>
                      <div className="content">
                      <p className="titleContent">Python</p>
                       <p>Artificial Intelegance for Hospital Management</p>
@@ -64,7 +64,7 @@ const Work = () => {
 
                 <div className="nestedSection2">
                   <div className="imageRightClass">
-                     <img src={require('../Assets/img/artificial.png')} alt="" className="aritifiial" />
+                     <img src={require('../Assets/img/artificial.png')} alt="image3" className="aritifiial" />
                   </div>
                   
                   </div>
@@ -75,7 +75,7 @@ const Work = () => {
             <div className="nestedSection">
                 <div className="nestedSection1">
                   <div className="imageClass">
-                     <img src={require('../Assets/img/nodejs.png')} alt="image" width="200px"/>
+                     <img src={require('../Assets/img/nodejs.png')} alt="image4" width="200px"/>
                      <div className="content">
                      <p className="titleContent">NodeJs</p>
                       <p>Socila Media Cloning</p>
@@ -88,7 +88,7 @@ const Work = () => {
 
                 <div className="nestedSection2">
                   <div className="imageRightClass">
-                     <img src="https://uploads-ssl.webflow.com/591e9525f13786217f2e347e/5b3a377bc0be087a91158b9c_Building%20-%20Haiku%20thumbnail.png" alt="" />
+                     <img src={require('../Assets/img/backend.png')} alt="image5" />
                   </div>
                   
                   </div>
@@ -98,7 +98,7 @@ const Work = () => {
             <div className="nestedSection">
                 <div className="nestedSection1">
                   <div className="imageClass">
-                     <img src={require('../Assets/img/reactjs.png')} alt="image" width="80"/>
+                     <img src={require('../Assets/img/reactjs.png')} alt="image6" width="80"/>
                      <div className="content">
                      <p className="titleContent">ReactJs</p>
                       <p>Design and Development</p>
@@ -111,7 +111,7 @@ const Work = () => {
 
                 <div className="nestedSection2">
                   <div className="imageRightClass">
-                     <img src="https://uploads-ssl.webflow.com/591e9525f13786217f2e347e/5b3a377bc0be087a91158b9c_Building%20-%20Haiku%20thumbnail.png" alt="" />
+                     <img src={require('../Assets/img/reactjsBanner.png')} alt="image7" />
                   </div>
                   
                   </div>
@@ -121,7 +121,7 @@ const Work = () => {
             <div className="nestedSection">
                 <div className="nestedSection1">
                   <div className="imageClass">
-                     <img src={require('../Assets/img/vuejs.png')} alt="image" width="80"/>
+                     <img src={require('../Assets/img/vuejs.png')} alt="image8" width="80"/>
                      <div className="content">
                      <p className="titleContent">Vue.js</p>
                       <p>Design and Development</p>
@@ -134,7 +134,7 @@ const Work = () => {
 
                 <div className="nestedSection2">
                   <div className="imageRightClass">
-                     <img src="https://uploads-ssl.webflow.com/591e9525f13786217f2e347e/5b3a377bc0be087a91158b9c_Building%20-%20Haiku%20thumbnail.png" alt="" />
+                     <img src={require('../Assets/img/vuejsBanner.png')} alt="image10" />
                   </div>
                   
                   </div>
@@ -144,7 +144,7 @@ const Work = () => {
             <div className="nestedSection">
                 <div className="nestedSection1">
                   <div className="imageClass">
-                     <img src={require('../Assets/img/metamask.png')} alt="image" width="80"/>
+                     <img src={require('../Assets/img/metamask.png')} alt="image11" width="80"/>
                      <div className="content">
                      <p className="titleContent">Web3 Transcation</p>
                       <p>Metamask Integration</p>
@@ -157,7 +157,7 @@ const Work = () => {
 
                 <div className="nestedSection2">
                   <div className="imageRightClass">
-                     <img src="https://uploads-ssl.webflow.com/591e9525f13786217f2e347e/5b3a377bc0be087a91158b9c_Building%20-%20Haiku%20thumbnail.png" alt="" />
+                     <img src={require('../Assets/img/blockchain.png')} alt="image12" />
                   </div>
                   
                   </div>
