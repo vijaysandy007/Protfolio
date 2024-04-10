@@ -14,7 +14,7 @@ const Contact = () =>{
    }, [])
 
    return(
-    <div>
+    <>
 
        <div className="wraper">
           <div className="title">
@@ -40,7 +40,7 @@ const Contact = () =>{
              
            </form>
        </div>
-    </div>
+    </>
    )
 }
 

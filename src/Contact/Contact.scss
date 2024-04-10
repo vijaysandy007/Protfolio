@@ -24,6 +24,7 @@ input{
 .textArea {
     min-height: 128px;
     min-width: 650px;
+    resize: vertical;
     border-style: none;
     border-width: 1px;
     border-color: black !important;
